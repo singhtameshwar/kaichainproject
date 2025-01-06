@@ -256,7 +256,7 @@ const tokens: TokenRequirement[] = [
 export const TOKENCROUSEL = () => {
     const plugin = React.useRef(
         Autoplay({
-            delay: 800,
+            delay: 900,
 
         })
     );

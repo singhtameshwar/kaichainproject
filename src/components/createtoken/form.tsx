@@ -191,8 +191,6 @@ export const TOKENDETAILFORM = () => {
                 )}
               />
             </div>
-
-            {/* Middle Column */}
             <div className="space-y-6">
               <FormField
                 control={form.control}
@@ -357,9 +355,6 @@ export const TOKENDETAILFORM = () => {
                           <SelectValue placeholder="10k" />
                         </SelectTrigger>
                       </FormControl>
-                      <SelectContent>
-                        <SelectItem value="10k">10k</SelectItem>
-                      </SelectContent>
                     </Select>
                     <FormDescription>
                       10k, Fixed, Unlimited, Capped
@@ -394,32 +389,33 @@ export const TOKENDETAILFORM = () => {
                 )}
               />
 
-<FormField
-                  control={form.control}
-                  name="mintable"
-                  render={({ field }) => (
-                    <FormItem className="flex flex-row items-start space-x-3 space-y-0">
-                      <FormControl>
-                        <label className="inline-flex items-center cursor-pointer">
-                          <input
-                            type="checkbox"
-                            value=""
-                            checked={field.value}
-                            onChange={field.onChange}
-                            className="sr-only peer"
-                          />
-                          <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none dark: rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-black"></div>
-                        </label>
-                      </FormControl>
-                      <div className="space-y-1 leading-none">
-                        <FormLabel>Verified Source Code</FormLabel>
-                        <FormDescription className="mt-1 text-sm text-gray-600">
-                        Token Source Code will be automatically verified on Etherscan. Only available on Mainnet.
-                        </FormDescription>
-                      </div>
-                    </FormItem>
-                  )}
-                />
+              <FormField
+                control={form.control}
+                name="mintable"
+                render={({ field }) => (
+                  <FormItem className="flex flex-row items-start space-x-3 space-y-0">
+                    <FormControl>
+                      <label className="inline-flex items-center cursor-pointer">
+                        <input
+                          type="checkbox"
+                          value=""
+                          checked={field.value}
+                          onChange={field.onChange}
+                          className="sr-only peer"
+                        />
+                        <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none dark: rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-black"></div>
+                      </label>
+                    </FormControl>
+                    <div className="space-y-1 leading-none">
+                      <FormLabel>Verified Source Code</FormLabel>
+                      <FormDescription className="mt-1 text-sm text-gray-600">
+                        Token Source Code will be automatically verified on
+                        Etherscan. Only available on Mainnet.
+                      </FormDescription>
+                    </div>
+                  </FormItem>
+                )}
+              />
 
               <FormField
                 control={form.control}
@@ -443,10 +439,6 @@ export const TOKENDETAILFORM = () => {
               />
             </div>
           </div>
-
-          {/* <Button type="submit" className="w-full">
-            NEXT
-          </Button> */}
         </form>
       </Form>
     </div>
