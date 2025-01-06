@@ -45,7 +45,7 @@ const tokens: TokenRequirement[] = [
     },
     {
         name: "StandardKRC20",
-        amount: "0.07",
+        amount: "0.05",
         properties: [
             { name: "KRC20 Compliant", value: true },
             { name: "Verified Source Code", value: true },
@@ -83,7 +83,7 @@ const tokens: TokenRequirement[] = [
     },
     {
         name: "BurnableKRC20",
-        amount: "0.095",
+        amount: "0.06",
         properties: [
             { name: "KRC20 Compliant", value: true },
             { name: "Verified Source Code", value: true },
@@ -102,7 +102,7 @@ const tokens: TokenRequirement[] = [
     },
     {
         name: "BurnableKRC20",
-        amount: "0.095",
+        amount: "0.07",
         properties: [
             { name: "KRC20 Compliant", value: true },
             { name: "Verified Source Code", value: true },
@@ -262,8 +262,8 @@ export const TOKENCROUSEL = () => {
     );
     return (
 
-        <div className="w-full bg-black flex items-center justify-center p-4">
-            <div className="w-full text-bold mx-auto">
+        <div className=" bg-black flex items-center justify-center p-4">
+            <div className=" text-bold mx-auto">
                 <h1 className="text-orange-500 text-4xl font-bold text-center mb-8">
                 Pricing
                 </h1>
