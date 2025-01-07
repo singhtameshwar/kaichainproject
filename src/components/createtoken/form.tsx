@@ -20,7 +20,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Input } from "@/components/ui/input";
-import { Checkbox } from "@/components/ui/checkbox";
 
 const formSchema = z.object({
   tokenType: z.string().min(1, "Token type is required"),
@@ -420,14 +419,14 @@ export const TOKENDETAILFORM = () => {
               <FormField
                 control={form.control}
                 name="termsAccepted"
-                render={({ field }) => (
+                render={({}) => (
                   <FormItem className="flex flex-col space-y-4">
                     <div className="flex items-start space-x-3">
                       <div className="space-y-1 leading-none">
                         <FormLabel>Terms of Use</FormLabel>
                         <FormDescription>
                           I have read, understood and agreed to Token
-                          Generator's Terms of Use
+                          Generator&apos;s Terms of Use
                         </FormDescription>
                       </div>
                     </div>

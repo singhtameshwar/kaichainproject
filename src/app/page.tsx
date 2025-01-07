@@ -11,18 +11,18 @@ import TOKEN from "@/components/home/deploytoken"
 
 export default function Home() {
   return (
-  
+
     <main>
-    <HERO/>
-    <HOWITWORKS/>
-     <TOKENCROUSEL/>  
-     <TOKENHERO/> 
-     <TOKENFEATURE/> 
-     <TOKENABOUT/>
-     <FAQ/>
-     <TOKEN/>
-     </main>
-    
+      <HERO />
+      <HOWITWORKS />
+      <TOKENCROUSEL />
+      <TOKENHERO />
+      <TOKENFEATURE />
+      <TOKENABOUT />
+      <FAQ />
+      <TOKEN />
+    </main>
+
 
   );
 }

@@ -38,7 +38,7 @@ export const  TOKENFEATURE=()=> {
                 Mintable
               </h3>
               <p className="text-white">
-                Owner or accounts with minting permission will be able to generate new tokens, up to token max supply. You can also disable minting if you don't want to generate tokens anymore.
+                Owner or accounts with minting permission will be able to generate new tokens, up to token max supply. You can also disable minting if you don&apos;t want to generate tokens anymore.
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ export const  TOKENFEATURE=()=> {
               Capped
               </h3>
               <p className="text-white">
-              You won't be able to generate more tokens than the defined token cap. This ensure people that you will not generate more tokens than declared.
+              You won&apos;t be able to generate more tokens than the defined token cap. This ensure people that you will not generate more tokens than declared.
               </p>
             </div>
   
